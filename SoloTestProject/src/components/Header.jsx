@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header>
+    <header className="site-header">
       <h1>Site Title goes here</h1>
       <nav>
         <ul className="site-navbar">

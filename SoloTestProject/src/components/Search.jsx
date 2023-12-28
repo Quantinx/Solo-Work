@@ -39,8 +39,11 @@ function Search({ sendData }) {
   }, [checked, sendData]);
 
   return (
-    <div>
-      <label htmlFor="htmlCheckbox">HTML</label>
+    <div className="site-search">
+      <label htmlFor="htmlCheckbox">
+        {" "}
+        <img src="src/assets/html.png" width={25} height={25}></img>
+      </label>
       <input
         id="htmlCheckbox"
         type="checkbox"
@@ -48,7 +51,9 @@ function Search({ sendData }) {
         defaultChecked
       ></input>
 
-      <label htmlFor="CSSCheckbox">CSS</label>
+      <label htmlFor="CSSCheckbox">
+        <img src="src/assets/css.png" width={25} height={25}></img>
+      </label>
       <input
         id="CSSCheckbox"
         type="checkbox"
@@ -56,7 +61,9 @@ function Search({ sendData }) {
         defaultChecked
       ></input>
 
-      <label htmlFor="JSCheckbox">JS</label>
+      <label htmlFor="JSCheckbox">
+        <img src="src/assets/javascript.png" width={25} height={25}></img>
+      </label>
       <input
         id="JSCheckbox"
         type="checkbox"
@@ -64,7 +71,10 @@ function Search({ sendData }) {
         defaultChecked
       ></input>
 
-      <label htmlFor="reactCheckbox">React</label>
+      <label htmlFor="reactCheckbox">
+        {" "}
+        <img src="src/assets/react.png" width={25} height={25}></img>
+      </label>
       <input
         id="reactCheckbox"
         type="checkbox"
@@ -72,7 +82,10 @@ function Search({ sendData }) {
         defaultChecked
       ></input>
 
-      <label htmlFor="tsCheckbox">TypeScript</label>
+      <label htmlFor="tsCheckbox">
+        {" "}
+        <img src="src/assets/typescript.png" width={25} height={25}></img>
+      </label>
       <input
         id="tsCheckbox"
         type="checkbox"

@@ -10,7 +10,14 @@ function ProjectCards(props) {
       <img src={project.img}></img>
       <ul className="card-types-list">
         {project.types.map((item, index) => (
-          <li key={index}>{item}. </li>
+          <li key={index}>
+            <img
+              src={"src/assets/" + item + ".png"}
+              alt={item + " icon"}
+              width={25}
+              height={25}
+            />{" "}
+          </li>
         ))}
       </ul>
     </div>

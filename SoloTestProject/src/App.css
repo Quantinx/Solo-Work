@@ -3,6 +3,10 @@
   justify-content: space-between;
 }
 
+.site-header {
+  background-color: gray;
+}
+
 .site-card {
   border: 1px solid grey;
   margin-left: 1rem;
@@ -15,6 +19,9 @@
   display: flex;
 }
 
+.site-search {
+  background-color: gray;
+}
 .card-container {
   display: flex;
   flex-wrap: wrap;
