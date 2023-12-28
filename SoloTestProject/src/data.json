@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Matching Card Game",
+    "url": "github/insertname",
+    "img": "https://picsum.photos/200",
+    "types": ["Javascript", "HTML", "CSS"]
+  },
+  {
+    "id": 2,
+    "name": "90s Style Website",
+    "url": "github/insertname",
+    "img": "https://picsum.photos/200",
+    "types": ["HTML", "CSS"]
+  },
+  {
+    "id": 3,
+    "name": "Placeholder project",
+    "url": "github/insertname",
+    "img": "https://picsum.photos/200",
+    "types": ["React", "TypeScript"]
+  },
+  {
+    "id": 4,
+    "name": "Placeholder project",
+    "url": "github/insertname",
+    "img": "https://picsum.photos/200",
+    "types": ["React"]
+  },
+  {
+    "id": 5,
+    "name": "Placeholder project",
+    "url": "github/insertname",
+    "img": "https://picsum.photos/200",
+    "types": ["TypeScript"]
+  },
+  {
+    "id": 6,
+    "name": "Placeholder project",
+    "url": "github/insertname",
+    "img": "https://picsum.photos/200",
+    "types": ["Javascript"]
+  }
+]
