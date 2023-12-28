@@ -7,7 +7,8 @@ function Search({ sendData }) {
     html: true,
     CSS: true,
     JS: true,
-    React: true,
+    Rct: true,
+    TS: true,
   });
 
   const [htmlChecked, updateHtmlChecked] = useState(true);
@@ -23,7 +24,7 @@ function Search({ sendData }) {
       html: htmlChecked,
       CSS: cssChecked,
       JS: jsChecked,
-      React: reactChecked,
+      Rct: reactChecked,
       TS: tsChecked,
     });
     console.log(checkedBox + "In function");

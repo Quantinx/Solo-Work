@@ -27,42 +27,34 @@ function App() {
   function filterResults() {
     let projectFilter = Projects;
 
-    if (!receivedData.html) {
-      projectFilter = filteredProjects.filter(
-        (filteredProjects) =>
-          !filteredProjects.types.some((type) => type === "HTML")
+    if (receivedData.html !== undefined && !receivedData.html) {
+      projectFilter = projectFilter.filter(
+        (project) => !project.types.includes("HTML")
       );
-      console.log(projectFilter);
     }
 
-    if (!receivedData.CSS) {
-      projectFilter = filteredProjects.filter(
-        (filteredProjects) =>
-          !filteredProjects.types.some((type) => type === "CSS")
+    if (receivedData.CSS !== undefined && !receivedData.CSS) {
+      projectFilter = projectFilter.filter(
+        (project) => !project.types.includes("CSS")
       );
-      console.log(projectFilter);
     }
 
-    if (!receivedData.JS) {
-      projectFilter = filteredProjects.filter(
-        (filteredProjects) =>
-          !filteredProjects.types.some((type) => type === "Javascript")
+    if (receivedData.JS !== undefined && !receivedData.JS) {
+      projectFilter = projectFilter.filter(
+        (project) => !project.types.includes("Javascript")
       );
-      console.log(projectFilter);
     }
-    if (!receivedData.React) {
-      projectFilter = filteredProjects.filter(
-        (filteredProjects) =>
-          !filteredProjects.types.some((type) => type === "React")
+
+    if (receivedData.Rct !== undefined && !receivedData.Rct) {
+      projectFilter = projectFilter.filter(
+        (project) => !project.types.includes("React")
       );
-      console.log(projectFilter);
     }
-    if (!receivedData.TS) {
-      projectFilter = filteredProjects.filter(
-        (filteredProjects) =>
-          !filteredProjects.types.some((type) => type === "TypeScript")
+
+    if (receivedData.TS !== undefined && !receivedData.TS) {
+      projectFilter = projectFilter.filter(
+        (project) => !project.types.includes("TypeScript")
       );
-      console.log(projectFilter);
     }
 
     setFilteredProjects(projectFilter);
