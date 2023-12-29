@@ -1,6 +1,4 @@
-import Header from "../components/Header";
 import ProjectCards from "../components/ProjectCards";
-import "./App.css";
 import Search from "../components/Search";
 import Data from "../data.json";
 import { useState } from "react";
